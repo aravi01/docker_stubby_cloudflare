@@ -8,6 +8,7 @@ idle_timeout: 10000
 dnssec_return_status: GETDNS_EXTENSION_TRUE
 listen_addresses:
   - 0.0.0.0
+round_robin_upstreams: 0
 upstream_recursive_servers:
   - address_data: 1.1.1.1
     tls_auth_name: "cloudflare-dns.com"
